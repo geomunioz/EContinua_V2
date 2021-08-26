@@ -1,0 +1,15 @@
+.inputs{
+    width: 100%;
+}
+
+label{
+    display: flex;
+    margin-left: 10px;
+}
+
+input{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
