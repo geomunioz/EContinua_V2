@@ -1,0 +1,11 @@
+@media screen and (min-width: 560px) {
+    .register--inputs{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 15px;
+    }
+
+    .desktop{
+        grid-column: 1 / 3;
+    }
+}
