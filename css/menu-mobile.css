@@ -2,7 +2,7 @@
     left: 100%;
 }
 
-.menu-mobile{
+.menu-mobile.enable{
     position: fixed;
     z-index: 2;
     top: 0;
