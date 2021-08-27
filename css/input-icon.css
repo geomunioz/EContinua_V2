@@ -5,7 +5,8 @@
     margin: 2px auto 12px;
     padding-left: 5px;
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: 85% 10%;
+    gap: 3%;
     justify-content: center;
     align-items: center;
     border-radius: 8px;

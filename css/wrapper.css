@@ -4,3 +4,9 @@
     padding-inline-start: 16px;
     margin: auto;
 }
+
+@media screen and (max-width: 560px) {
+    .wrapper{
+        width: 100%;
+    }
+}

@@ -2,7 +2,7 @@
     left: 100%;
 }
 
-.menu-mobile.enable{
+.menu-mobile{
     position: fixed;
     z-index: 2;
     top: 0;
@@ -16,12 +16,11 @@
 
 .menu-mobile .button-icon{
     position: absolute;
-    right: 0;
+    right: 16px;
 }
 
 .menu-mobile ul{
     width: 100%;
-    margin-top: 60px;
     padding: 0 20px;
     list-style: none;
     justify-content: center;
