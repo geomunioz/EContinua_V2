@@ -5,12 +5,24 @@ const btn_password = document.querySelector('.icon.p.one');
 const btn_menuHeader = document.querySelector('#btn_menuHeader');
 const cancel = document.querySelector('#menu-c');
 
+/*Apertura y cierre menu principal */
+const btn_menuPrincipal = document.querySelector('#menu-p');
+
 function menuMobile(){
     let menuMobile = document.querySelector('.menu-mobile');  
     if(menuMobile.className === "menu-mobile disable") {
         menuMobile.className = "menu-mobile enable";
     }else{
         menuMobile.className = "menu-mobile disable";
+    }
+}
+
+function menuPrincipal(){
+    let menuPrincipal = document.querySelector('.menu-principal');
+    if(menuPrincipal.className == "menu-principal disable"){
+        menuPrincipal.className = "menu-principal enable";
+    }else{
+        menuPrincipal.className = "menu-principal disable";
     }
 }
 
@@ -38,3 +50,8 @@ if(btn_password!=null){
 /*Control menu Mobile */
 btn_menuHeader.addEventListener('click', menuMobile);
 cancel.addEventListener('click', menuMobile);
+
+/*Menu Principal */
+if(btn_menuPrincipal!=null){
+    btn_menuPrincipal.addEventListener('click', menuPrincipal);
+}

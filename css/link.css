@@ -3,7 +3,7 @@ a{
     color: var(--second-color);
 }
 
-a:hover{
+.link a:hover{
     color: var(--primary-color);
 }
 

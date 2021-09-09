@@ -1,0 +1,24 @@
+.card{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover{
+    color: var(--second-color);
+    background-color: var(--primary-color);
+}
+
+.card p{
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0 auto;
+}

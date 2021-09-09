@@ -12,6 +12,8 @@
 @import "wrapper.css";
 @import "register.css";
 @import "select.css";
+@import "card.css";
+@import "panel-container.css";
 
 :root{
     --primary-color: #00395e;

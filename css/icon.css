@@ -11,3 +11,17 @@
     font-size: 1.2rem;
     color: var(--second-color);
 }
+
+.logo-icon{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-icon i{
+    font-size: 5rem;
+    color: var(--second-color);
+}
+
