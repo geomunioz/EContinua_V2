@@ -7,7 +7,6 @@
     <title>Registro</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/4ab24f1bb8.js" crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header class="header">
@@ -32,20 +31,22 @@
     </header>
     <main>
         <div class="wrapper">
-            <section class="register--container">
-                <h2>Registro</h2>
+            <section class="register--container plus">
+                <h2>Dirección General de Educación Continua</h2>
                 <form action="register2.html">
                     <div class="container-input">
-                        <label for="">Ingrese clave de trabajador:</label>
-                        <div class="input-icon">
-                            <input type="text" name="key" id="key" placeholder="Clave de Trabajador">
-                            <div class="icon">
-                                <i class="fas fa-search"></i>
+                        <div class="container-input desktop">
+                            <label for="">Ingrese clave de trabajador:</label>
+                            <div class="input">
+                                <input type="text" name="key" id="key" placeholder="Clave de Trabajador">
                             </div>
                         </div>
-                    </div>
-                    <div class="g-recaptcha" data-sitekey="6LeDBVccAAAAALVEqZMrF4HHDeWTgLQQ_Q2Wfpmi">
-
+                        <div class="container-input desktop" id="correo">
+                            <label for="">Correo Institucional:</label>
+                            <div class="input">
+                                <input type="email" name="email" id="email" placeholder="Correo Institucional">
+                            </div>
+                        </div>
                     </div>
                     <input class="button" type="submit" value="BUSCAR">
                 </form>

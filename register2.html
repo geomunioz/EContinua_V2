@@ -35,26 +35,43 @@
             <section class="register--container plus">
                 <form action="register3.html">
                     <h2>Registro</h2>
-                        <div class="container-input" id="key">
-                            <label for="">Clave de Trabajador:</label>
+                    <section class="register--inputs">
+                        <div class="container-input" id="paterno">
+                            <label for="">Apellido Paterno:</label>
                             <div class="input">
-                                <input type="text" name="key" id="key" placeholder="Ingresa Clave">
+                                <input type="text" name="name_father" id="name_father" placeholder="Ap. Paterno">
                             </div>
                         </div>
-                        <div class="container-input" id="facultad">
-                            <label for="">Facultad:</label>
+                        <div class="container-input" id="materno">
+                            <label for="">Apellido Materno:</label>
                             <div class="input">
-                                <input type="text" name="faculty" id="faculty" placeholder="Facultad">
+                                <input type="text" name="name_mother" id="name_mother" placeholder="Ap. Materno">
                             </div>
                         </div>
-                        <div class="container-input" id="campus">
-                            <label for="">Campus:</label>
+                        <div class="container-input desktop" id="nombre">
+                            <label for="">Nombre(s):</label>
                             <div class="input">
-                                <input type="text" name="campus" id="campus" placeholder="Campus">
+                                <input type="text" name="name" id="name" placeholder="Nombre(s)">
                             </div>
                         </div>
-                        
+                        <div class="container-input" id="sexo">
+                            <label for="">Sexo:</label>
+                            <div class="input">
+                                <select class="select" name="sex" id="sex" >
+                                    <option value="" selected>Sexo</option>
+                                    <option value="">Hombre</option>
+                                    <option value="">Mujer</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="container-input" id="nacimiento">
+                            <label for="">Fecha de Nacimiento:</label>
+                            <div class="input">
+                                <input type="date" name="date_birth" id="date_birth" value="" max="2021-01-01">
+                            </div>
+                        </div>
                         <input type="submit" class="button desktop" value="SIGUIENTE">
+                    </section>
                 </form>
             </section>
         </div>
