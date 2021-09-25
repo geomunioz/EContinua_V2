@@ -1,11 +1,12 @@
 .header{
     display: flex;
     block-size: 80px;
+    inline-size: 100vw;
     background-color: var(--primary-color);
     padding-inline-end: 16px;
     padding-inline-start: 16px;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
 }

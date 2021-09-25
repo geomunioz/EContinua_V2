@@ -131,35 +131,62 @@
             </ul>
         </section>
         <div class="wrapper-contain">
-            <div>
-                <h2>Gestion de Actos Academicos de Educación Contínua</h2>
+            <h2>Gestion de Actos Academicos de Educación Contínua</h2>
+            <h3>Mis Solicitudes</h3>
             <section class="panel-container">
-                <a href="">
-                    <article class="card">
-                        <div class="logo-icon">
-                            <i class="far fa-file-alt"></i>
-                        </div>
-                        <p>Solicitud de Registro de Presentación</p>
-                    </article>
-                </a>
-                <a href="solicitudProceso.html">
-                    <article class="card">
-                        <div class="logo-icon">
-                            <i class="far fa-paper-plane" ></i>
-                        </div>
-                        <p>Solicitudes en Proceso</p>
-                    </article>
-                </a>
-                <a href="">
-                    <article class="card">
-                        <div class="logo-icon">
-                            <i class="far fa-folder"></i>
-                        </div>
-                        <p>Eventos Finalizados</p>
-                    </article>
-                </a>
+                <table class="table--requests">
+                    <thead>
+                        <tr>
+                            <th id="id">
+                                Clave
+                            </th>
+
+                            <th id="name">
+                                Nombre
+                            </th>
+
+                            <th id="date">
+                                Fecha de Solicitud
+                            </th>
+
+                            <th id="status">
+                                Estatus
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="tr--content">
+                            <td id="id">
+                                00001
+                            </td>
+                            <td id="name">
+                                <a href="">Educacion Continua</a>
+                            </td>
+                            <td id="date">
+                                27-08-18
+                            </td>
+                            <td id="status">
+                                En Revisión
+                            </td>
+                        </tr>
+
+                        <tr class="tr--content">
+                            <td id="id">
+                                00001
+                            </td>
+                            <td id="name" >
+                                <a href="">Educacion Continua</a>
+                            </td>
+                            <td id="date">
+                                27-08-18
+                            </td>
+                            <td id="status">
+                                Rechazado
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
-            </div>
         </div>
     </main>
     <section class="menu-mobile disable">

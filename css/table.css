@@ -1,0 +1,41 @@
+.table--requests{
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    border-spacing: 0;
+    margin-top: 10px;
+}
+
+th{
+    height: 40px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+tr{
+    height: 40px;
+}
+
+.tr--content a{
+    color: var(--second-color);
+}
+
+.tr--content a:hover{
+    color: var(--primary-color-color);
+}
+
+td{
+    height: 40px;
+}
+
+.table--requests #id,
+#date{
+    position: absolute;
+    right: 100%;
+}
+
+@media screen and (min-width:768px){
+    .table--requests #id,
+    .table--requests #date{
+        position: initial;
+    }
+}

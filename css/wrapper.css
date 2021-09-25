@@ -1,12 +1,28 @@
 .wrapper{
     max-inline-size: 1000px;
+    height: 100vh;
     padding-inline-end: 16px;
     padding-inline-start: 16px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.wrapper-contain{
+    padding-top: 120px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    height: 100vh;
+}
+
+.wrapper-contain h3{
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 560px) {
     .wrapper{
         width: 100%;
+        padding-top: 80px;
     }
 }

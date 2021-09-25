@@ -12,6 +12,7 @@
 .menu-principal{
     position: absolute;
     right: 100%;
+    background: var(--white-color);
 }
 
 @media screen and (min-width:768px){
@@ -24,8 +25,8 @@
     }
 
     .menu-principal{
-        right: 0;
-        position: sticky;
+        left: 0;
+        position: fixed;
         width: 50px;
         border-top: 2px solid var(--primary-color);
         border-bottom: 2px solid var(--primary-color);
