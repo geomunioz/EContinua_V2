@@ -15,6 +15,7 @@
 @import "card.css";
 @import "panel-container.css";
 @import "table.css";
+@import "textarea.css";
 
 :root{
     --primary-color: #00395e;
