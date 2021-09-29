@@ -132,40 +132,64 @@
         </section>
         <div class="wrapper-contain">
             <h2>Gestión de Actos Académicos de Educación Contínua</h2>
-                <form action="solicitudProceso.html">
-                    <h3>Solicitud</h3>
-                    <section class="register--inputs">
-                        <div class="container-input desktop" id="key_request">
-                            <label for="">Clave de Solicitud:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="00001" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="name_program">
-                            <label for="">Nombre del Programa:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="KNN" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="status">
-                            <label for="">Estatus:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="RECHAZADA" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="date_answer">
-                            <label for="">Fecha de Respuesta:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="19-07-2021" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="comments">
-                            <label for="">Comentarios:</label>
-                            <textarea class="textarea" name="" id="" cols="20" rows="5"></textarea>
-                        </div>
-                        <input class="button desktop" type="submit" value="ACEPTAR">
-                    </section>
+            <h3>Mis Eventos</h3>
+            <section class="panel-container">
+                <table class="table--requests">
+                    <thead>
+                        <tr>
+                            <th id="id">
+                                Clave
+                            </th>
+
+                            <th id="name">
+                                Nombre
+                            </th>
+
+                            <th id="date">
+                                Fecha de Solicitud
+                            </th>
+
+                            <th id="status">
+                                Estatus
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="tr--content">
+                            <td id="id">
+                                00001
+                            </td>
+                            <td id="name">
+                                <a href="reporte.html">Educacion Continua</a>
+                            </td>
+                            <td id="date">
+                                27-08-18
+                            </td>
+                            <td id="status">
+                                En Revisión
+                            </td>
+                        </tr>
+
+                        <tr class="tr--content">
+                            <td id="id">
+                                00001
+                            </td>
+                            <td id="name" >
+                                <a href="reporte.html">Educacion Continua</a>
+                            </td>
+                            <td id="date">
+                                27-08-18
+                            </td>
+                            <td id="status">
+                                Rechazado
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form action="principal.html" style="width: 100%;">
+                    <input class="button desktop" type="submit" value="MENÚ PRINCIPAL">
                 </form>
+            </section>
         </div>
     </main>
     <section class="menu-mobile disable">
