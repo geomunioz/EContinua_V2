@@ -63,7 +63,8 @@
                             <!-- <a href=""> He leído y Acepto Términos y Condiciones de Privacidad </a> -->
                         </div>
                         <div class="g-recaptcha desktop" data-sitekey="6LfPiZscAAAAAANweqSWN9tHtWbCn94WQU2FGUg4" style="margin: 20px auto;"></div>
-                        <input class="button desktop" type="submit" value="FINALIZAR">
+                        <div id="status"></div>
+                        <input class="button desktop" type="submit" value="FINALIZAR" onclick="validate()">
                     </section>
                 </form>
             </section>
@@ -82,5 +83,15 @@
         </ul>
     </section>
     <script src="js/eventos.js"></script>
+    <script>
+        function validate(){
+            var response = grecaptcha.getResponse();
+            if(response != 0){
+
+            }else{
+                document.getElementById('status').innerHTML = "Acepta primero el captcha";
+            }
+        }
+    </script>
 </body>
 </html>
