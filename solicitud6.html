@@ -133,53 +133,20 @@
         <div class="wrapper-contain">
             <h2>Gestión de Actos Académicos de Educación Contínua</h2>
                 <form action="solicitudProceso.html">
-                    <h3>Reporte de Evento</h3>
+                    <h3>Presupuesto</h3>
                     <section class="register--inputs">
-                        <div class="container-input desktop" id="key_request">
-                            <label for="">Clave de Solicitud:</label>
+                        <div class="container-input desktop" id="type_budget">
+                            <label for="">Tipo de Presupuesto:</label>
                             <div class="input">
-                                <input type="text" name="" id="" value="00001" readonly>
+                                <select class="select" name="type_budget" id="">
+                                    <option value="Presencial">Autofinanciable</option>
+                                    <option value="A distancia">Gratis</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="container-input desktop" id="name_program">
-                            <label for="">Nombre del Programa:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="KNN es un programa a cargo de la FCC de la benemerita Universidad Autonoma de Puebla" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="status">
-                            <label for="">Estatus:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="RECHAZADA" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="date_answer">
-                            <label for="">Fecha de Respuesta:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="19-07-2021" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="file_report">
-                            <label for="">Agrege reporte:</label>
-                            <div class="input">
-                                <input type="file" name="" id="">
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="comments">
-                            <label for="">Comentarios:</label>
-                            <textarea class="textarea" name="" id="" cols="20" rows="5" readonly></textarea>
-                        </div>
+                        <input class="button desktop" type="submit" value="ACEPTAR">
                     </section>
                 </form>
-                <div class="container-button">
-                    <form action="eventoReporte.html" style="width: 100%;">
-                        <input class="button desktop" type="submit" value="REENVIAR">
-                    </form>
-
-                    <form action="principal.html" style="width: 100%;">
-                        <input class="button second desktop" type="submit" value="MENÚ">
-                    </form>
-                </div>
         </div>
     </main>
     <section class="menu-mobile disable">
@@ -192,7 +159,7 @@
             <li><a href="">Nombre Usuario</a></li>
             <li><a href="">Solicitud</a></li>
             <li><a href="solicitudProceso.html">Enviadas</a></li>
-            <li><a href="">Finalizadas</a></li>
+            <li><a href="eventoFinalizado.html">Finalizadas</a></li>
             <li><a href="http://webserver1.siiaa.siu.buap.mx/autoservicios/twbkwbis.P_GenMenu?name=homepage">Autoservicios</a></li>
             <li><a href="https://login.microsoftonline.com/">Correo BUAP</a></li>
             <li><a href="index.html">Cerrar Sesión</a></li>
