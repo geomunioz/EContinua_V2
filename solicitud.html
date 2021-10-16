@@ -132,37 +132,19 @@
         </section>
         <div class="wrapper-contain">
             <h2>Gestión de Actos Académicos de Educación Contínua</h2>
-                <form action="solicitudProceso.html">
+                <form action="solicitud1.html">
                     <h3>Solicitud</h3>
                     <section class="register--inputs">
-                        <div class="container-input desktop" id="key_request">
-                            <label for="">Clave de Solicitud:</label>
+                        <div class="container-input desktop" id="dependency">
+                            <label for="">Dependencia:</label>
                             <div class="input">
-                                <input type="text" name="" id="" value="00001" readonly>
+                                <select class="select" name="select_dependency" id="">
+                                    <option value="Facultad">Fac. de Ciencias de la Computación</option>
+                                    <option value="Otro">Otro</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="container-input desktop" id="name_program">
-                            <label for="">Nombre del Programa:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="KNN" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="status">
-                            <label for="">Estatus:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="RECHAZADA" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="date_answer">
-                            <label for="">Fecha de Respuesta:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="19-07-2021" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="comments">
-                            <label for="">Comentarios:</label>
-                            <textarea class="textarea" name="" id="" cols="20" rows="5"></textarea>
-                        </div>
+                        
                         <input class="button desktop" type="submit" value="ACEPTAR">
                     </section>
                 </form>

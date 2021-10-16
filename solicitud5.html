@@ -40,7 +40,7 @@
                         <i class="far fa-user-circle"></i>
                     </div>
                 </a>
-                <a href="nuevasSolicitudes.html">
+                <a href="">
                     <div class="button-icon">
                         <i class="far fa-file-alt"></i>
                     </div>
@@ -81,7 +81,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="nuevasSolicitudes.html">
+                    <a href="">
                         <div class="button-icon">
                             <i class="far fa-file-alt"></i>
                         </div>
@@ -131,43 +131,35 @@
             </ul>
         </section>
         <div class="wrapper-contain">
-            <div>
-                <h2>Gestión de Actos Académicos de Educación Contínua</h2>
-            <section class="panel-container">
-                <a href="nuevasSolicitudes.html">
-                    <article class="card">
-                        <div class="logo-icon">
-                            <i class="fas fa-plus"></i>
+            <h2>Gestión de Actos Académicos de Educación Contínua</h2>
+                <form action="solicitudProceso.html">
+                    <h3>Sobre los Aspirantes</h3>
+                    <section class="register--inputs">
+                        <div class="container-input desktop" id="profile_candidate">
+                            <label for="">Perfil del Aspirante:</label>
+                            <textarea class="textarea" name="" id="" cols="20" rows="5" placeholder="Escribe aqui... Perfil del Aspirante"></textarea>
                         </div>
-                        <p>Nueva Solicitud</p>
-                    </article>
-                </a>
-                <a href="solicitudProceso.html">
-                    <article class="card">
-                        <div class="logo-icon">
-                            <i class="far fa-paper-plane" ></i>
+                        <div class="container-input desktop" id="profile_graduate">
+                            <label for="">Perfil del Egresado:</label>
+                            <textarea class="textarea" name="" id="" cols="20" rows="5" placeholder="Escribe aqui... Perfil del Egresado"></textarea>
                         </div>
-                        <p>Solicitudes en Proceso</p>
-                    </article>
-                </a>
-                <a href="eventoReporte.html">
-                    <article class="card">
-                        <div class="logo-icon">
-                            <i class="far fa-file-alt"></i>
+                        <div class="container-input desktop" id="requeriment_entry">
+                            <label for="">Requisitos de Ingreso:</label>
+                            <textarea class="textarea" name="" id="" cols="20" rows="5" placeholder="Escribe aqui... Requisitos de Ingreso"></textarea>
                         </div>
-                        <p>Reporte de Evento</p>
-                    </article>
-                </a>
-                <a href="eventoFinalizado.html">
-                    <article class="card">
-                        <div class="logo-icon">
-                            <i class="far fa-folder"></i>
+                        <div class="container-input desktop" id="requeriment_egress">
+                            <label for="">Requisitos de Egreso:</label>
+                            <textarea class="textarea" name="" id="" cols="20" rows="5" placeholder="Escribe aqui... Requisitos de Egreso"></textarea>
                         </div>
-                        <p>Eventos Finalizados</p>
-                    </article>
-                </a>
-            </section>
-            </div>
+                        <div class="container-input desktop" id="name_program">
+                            <label for="">Número de Participantes:</label>
+                            <div class="input">
+                                <input type="number" name="" id="" placeholder="Ingrese numero de alumnos">
+                            </div>
+                        </div>
+                        <input class="button desktop" type="submit" value="ACEPTAR">
+                    </section>
+                </form>
         </div>
     </main>
     <section class="menu-mobile disable">
@@ -178,7 +170,7 @@
         </div>
         <ul>
             <li><a href="">Nombre Usuario</a></li>
-            <li><a href="nuevasSolicitudes.html">Solicitud</a></li>
+            <li><a href="">Solicitud</a></li>
             <li><a href="solicitudProceso.html">Enviadas</a></li>
             <li><a href="eventoFinalizado.html">Finalizadas</a></li>
             <li><a href="http://webserver1.siiaa.siu.buap.mx/autoservicios/twbkwbis.P_GenMenu?name=homepage">Autoservicios</a></li>
