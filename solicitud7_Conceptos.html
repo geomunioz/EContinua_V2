@@ -132,46 +132,41 @@
         </section>
         <div class="wrapper-contain">
             <h2>Gestión de Actos Académicos de Educación Continua</h2>
-                <form action="solicitudProceso.html">
-                    <h3>Solicitud</h3>
-                    <section class="register--inputs">
-                        <div class="container-input desktop" id="key_request">
-                            <label for="">Clave de Solicitud:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="00001" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="name_program">
-                            <label for="">Nombre del Programa:</label>
-                            <textarea class="textarea" name="name_program" id="name_program" cols="20" rows="2" readonly>Nombre del Programa</textarea>
-                        </div>
-                        <div class="container-input desktop" id="status">
-                            <label for="">Estatus:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="RECHAZADA" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="date_answer">
-                            <label for="">Fecha de Respuesta:</label>
-                            <div class="input">
-                                <input type="text" name="" id="" value="19-07-2021" readonly>
-                            </div>
-                        </div>
-                        <div class="container-input desktop" id="comments">
-                            <label for="">Comentarios:</label>
-                            <textarea class="textarea" name="" id="" cols="20" rows="5"></textarea>
-                        </div>
-                    </section>
-                </form>
+            <h3>Conceptos</h3>
+            <section class="panel-container">
+                <table class="table--requests">
+                    <thead>
+                        <tr>
+                            <th id="name_concept">
+                                Concepto
+                            </th>
+
+                            <th id="total">
+                                Total
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="tr--content">
+                            <td id="concept">
+                                <a href="concepto.html">Pago de Honorarios</a>
+                            </td>
+                            <td id="total_costo">
+                                $17,500.00
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
                 <div class="container-button">
-                    <form action="solicitud.html" style="width: 100%;">
-                        <input class="button desktop" type="submit" value="EDITAR">
+                    <form action="nuevoConcepto.html" style="width: 100%;">
+                        <input class="button desktop" type="submit" value="AGREGAR">
                     </form>
 
                     <form action="principal.html" style="width: 100%;">
-                        <input class="button second desktop" type="submit" value="MENÚ">
+                        <input class="button second desktop" type="submit" value="GUARDAR">
                     </form>
                 </div>
+            </section>
         </div>
     </main>
     <section class="menu-mobile disable">

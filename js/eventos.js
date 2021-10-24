@@ -42,6 +42,7 @@ function visible(){
     }
 }
 
+
 /*Visibilidad de contraseña */
 if(btn_password!=null){
     btn_password.addEventListener('click', visible);

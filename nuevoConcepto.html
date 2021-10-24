@@ -132,46 +132,43 @@
         </section>
         <div class="wrapper-contain">
             <h2>Gestión de Actos Académicos de Educación Continua</h2>
-                <form action="solicitudProceso.html">
-                    <h3>Solicitud</h3>
+                <form action="solicitud7_Conceptos.html">
+                    <h3>Nuevo Concepto</h3>
                     <section class="register--inputs">
-                        <div class="container-input desktop" id="key_request">
-                            <label for="">Clave de Solicitud:</label>
+                        <div class="container-input desktop" id="">
+                            <label for="">Nombre de Concepto:</label>
                             <div class="input">
-                                <input type="text" name="" id="" value="00001" readonly>
+                                <input type="text" name="name_Concept" id="" placeholder="Nombre de Concepto">
                             </div>
                         </div>
-                        <div class="container-input desktop" id="name_program">
-                            <label for="">Nombre del Programa:</label>
-                            <textarea class="textarea" name="name_program" id="name_program" cols="20" rows="2" readonly>Nombre del Programa</textarea>
-                        </div>
-                        <div class="container-input desktop" id="status">
-                            <label for="">Estatus:</label>
+                        <div class="container-input desktop" id="">
+                            <label for="">Número de horas:</label>
                             <div class="input">
-                                <input type="text" name="" id="" value="RECHAZADA" readonly>
+                                <input type="number" name="number_hours" id="" placeholder="Número de horas">
                             </div>
                         </div>
-                        <div class="container-input desktop" id="date_answer">
-                            <label for="">Fecha de Respuesta:</label>
+                        <div class="container-input desktop" id="">
+                            <label for="">Pago por Hora:</label>
                             <div class="input">
-                                <input type="text" name="" id="" value="19-07-2021" readonly>
+                                <input type="number" name="hourly" id="" placeholder="Pago por hora">
                             </div>
                         </div>
-                        <div class="container-input desktop" id="comments">
-                            <label for="">Comentarios:</label>
-                            <textarea class="textarea" name="" id="" cols="20" rows="5"></textarea>
+                        <div class="container-input desktop" id="">
+                            <label for="">Total:</label>
+                            <div class="input">
+                                <input type="number" name="total" id="" placeholder="Total de Concepto">
+                            </div>
                         </div>
                     </section>
+                    <div class="container-button">
+                        <input class="button desktop" type="submit" value="GUARDAR">
+    
+                        <form action="solicitud7_Conceptos.html" style="width: 100%;">
+                            <input class="button second desktop" type="submit" value="CANCELAR">
+                        </form>
+                    </div>
                 </form>
-                <div class="container-button">
-                    <form action="solicitud.html" style="width: 100%;">
-                        <input class="button desktop" type="submit" value="EDITAR">
-                    </form>
-
-                    <form action="principal.html" style="width: 100%;">
-                        <input class="button second desktop" type="submit" value="MENÚ">
-                    </form>
-                </div>
+                
         </div>
     </main>
     <section class="menu-mobile disable">
