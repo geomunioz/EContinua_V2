@@ -26,6 +26,7 @@
 
     .menu-principal{
         left: 0;
+        top: 120px;
         position: fixed;
         width: 50px;
         border-top: 2px solid var(--primary-color);
